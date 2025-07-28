@@ -1,0 +1,44 @@
+
+conda activate velocyto_env
+
+# E12-5_NCC
+velocyto run --samtools-memory 16000 -b ./filtered_feature_bc_matrix/barcodes.tsv -o ./velocyto ./gex_possorted_bam.bam /Volumes/Neon-HD/RNA-seq/Refference_Genome/extra_arc/arc_mm10/mm10_EYFP_arc/genes/genes.gtf
+# 11:14-17:58
+
+# E12-5_non_NCC
+velocyto run --samtools-memory 16000 -b ./filtered_feature_bc_matrix/barcodes.tsv -o ./velocyto ./gex_possorted_bam.bam /Volumes/Neon-HD/RNA-seq/Refference_Genome/extra_arc/arc_mm10/mm10_EYFP_arc/genes/genes.gtf
+# 18:27-0:05
+
+# E14-5_NCC
+velocyto run --samtools-memory 16000 -b ./filtered_feature_bc_matrix/barcodes.tsv -o ./velocyto ./gex_possorted_bam.bam /Volumes/Neon-HD/RNA-seq/Refference_Genome/extra_arc/arc_mm10/mm10_EYFP_arc/genes/genes.gtf
+# 9:52-10:52
+
+# E14-5_non_NCC
+velocyto run --samtools-memory 16000 -b ./filtered_feature_bc_matrix/barcodes.tsv -o ./velocyto ./gex_possorted_bam.bam /Volumes/Neon-HD/RNA-seq/Refference_Genome/extra_arc/arc_mm10/mm10_EYFP_arc/genes/genes.gtf
+# 11:25-14:20
+
+# E17-5_NCC
+velocyto run --samtools-memory 16000 -b ./filtered_feature_bc_matrix/barcodes.tsv -o ./velocyto ./gex_possorted_bam.bam /Volumes/Neon-HD/RNA-seq/Refference_Genome/extra_arc/arc_mm10/mm10_EYFP_arc/genes/genes.gtf
+# 14:59-18:40
+
+# E17-5_non_NCC
+velocyto run --samtools-memory 16000 -b ./filtered_feature_bc_matrix/barcodes.tsv -o ./velocyto ./gex_possorted_bam.bam /Volumes/Neon-HD/RNA-seq/Refference_Genome/extra_arc/arc_mm10/mm10_EYFP_arc/genes/genes.gtf
+# 19:02-21:52
+
+# E11-5_NCC
+velocyto run --samtools-memory 16000 -b ./filtered_feature_bc_matrix/barcodes.tsv -o ./velocyto ./gex_possorted_bam.bam /Volumes/Neon-HD/RNA-seq/Refference_Genome/extra_arc/arc_mm10/mm10_EYFP_arc/genes/genes.gtf
+# 11:13-15:17
+
+# E11-5_non_NCC
+velocyto run --samtools-memory 16000 -b ./filtered_feature_bc_matrix/barcodes.tsv -o ./velocyto ./gex_possorted_bam.bam /Volumes/Neon-HD/RNA-seq/Refference_Genome/extra_arc/arc_mm10/mm10_EYFP_arc/genes/genes.gtf
+# 15:48-20:07
+
+
+
+
+
+
+
+
+
+
