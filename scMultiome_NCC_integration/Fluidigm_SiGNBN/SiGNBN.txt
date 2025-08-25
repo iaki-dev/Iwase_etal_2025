@@ -1,0 +1,14 @@
+#SiGN-BN
+
+qsub -o so -e se -pe mpi-fillup 128 ~tamada/sign/signmpi.sh ~tamada/sign/signbnnnsr.0.16.6 -m 1000 -T 1000000 --skel-type TXT --skel ~/SiGN-BN/200513_test/regTar16v2.txt -o result ~/SiGN-BN/200514_test/tpm_wo_cl11_markers3_7171.edf.txt
+ ~tamada/sign/signproc -t SGN3 result.sgn3 --output type=TXT, args='{H,P,N}', file=result.txt
+
+~tamada/sign/signproc -t SGN3 result.sgn3 --output type=NODELIST, file=nodelist.txt
+
+
+
+
+
+
+
+
